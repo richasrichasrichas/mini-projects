@@ -12,7 +12,7 @@ input('Press enter to start.')
 
 print('Your name is Marcus Iverson, an English Championship goalkeeper at the Merseyside Ogres F.C')
 input('''                  __,='`````'=/__
-                          '//  (o) \(o) \ `'         _,-,
+                          '//  (o) \( o) \ `'         _,-,
                           //|     ,_)   (`\      ,-'`_,-\
                         ,-~~~\  `'==='  /-,      \==```` \__
                        /        `----'     `\     \       \/
@@ -73,4 +73,6 @@ print('''
   -   __/\ `                                  /\  |xx|XXX|
      `    \, ()                              ` << |xx|XXX|
  jgs^^^^^^^^`^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^''')
-input('Which side do you go to block the ball? Left-Up Left-Down Right-Up Right-Down')
+input('Which side do you go to block the ball? 'Left-Up' 'Left-Down' 'Right-Up' 'Right-Down'')
+    if Left-Up:
+        print()
