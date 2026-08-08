@@ -74,12 +74,28 @@ print('''
      `    \, ()                              ` << |xx|XXX|
  jgs^^^^^^^^`^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^''')
 choice1 = input('Which side do you go to block the ball? Type "Left-Up" "Left-Down" "Right-Up" "Right-Down"')
+
 choice2 = input('You defended the kick but it was a rebound! The enemy midfielder is coming to the ball, what do you do? Type "Run at the ball" "Block left" "Block right"') 
 
-if choice1 'Left-Up': 
-  print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!');
-if choice1 'Right-Down'
-  choice2
-if choice1 'Left-Down' or 'Right-Up':
-  print('')
-else print('Please choose one of the options.')
+choice3 = input('''You bumped into the midfielder and it's a penalty!!! The referee waivers at you the yellow card, so you are still in the field, but this is your last chance, where do you jump to defend the ball? Type "Middle" "Left-Up" "Left-Down" "Right-Up" "Right-Down"''')
+
+if choice1: 'Left-Up'
+print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!');
+if choice1: 'Right-Down'
+choice2
+if choice2: 'Run at the ball'
+choice3
+if choice3: "Middle"
+print('It went out!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!')
+if choice3: "Left-Down"
+print('''The dream it's over, the ball went in and the Ogres are in the Championship for another year. GAME OVER''')
+if choice3: "Left-Up"
+print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!')
+if choice3: "Right-Up"
+print('''The dream it's over, the ball went in and the Ogres are in the Championship for another year. GAME OVER''')
+if choice3: "Right-Down"
+print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!')
+if choice2: 'Block left'
+if choice1: 'Left-Down' or 'Right-Up'
+print('')
+elif print('Please choose one of the options.')
