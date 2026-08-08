@@ -73,6 +73,8 @@ print('''
   -   __/\ `                                  /\  |xx|XXX|
      `    \, ()                              ` << |xx|XXX|
  jgs^^^^^^^^`^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^''')
-input('Which side do you go to block the ball? 'Left-Up' 'Left-Down' 'Right-Up' 'Right-Down'')
-    if Left-Up:
-        print()
+choice1 = input('Which side do you go to block the ball? Type "Left-Up" "Left-Down" "Right-Up" "Right-Down"')
+choice2 == input('You defended the kick but it was a rebound! The enemy midfielder is coming to the ball, what do you do? Type "Run at the ball" "Block left" "Block right"') 
+
+if choice1 "Left-Up": 
+        print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!');
