@@ -10,7 +10,7 @@ print('''                  _ _
 
 input('Press enter to start.')
 
-print('Your name is Marcus Iverson, an English Championship goalkeeper at the Merseyside Ogres F.C')
+print('Your name is Marcus Iverson, an English Championship goalkeeper at the Merseyside Ogres F.C.')
 input('''                  __,='`````'=/__
                           '//  (o) \( o) \ `'         _,-,
                           //|     ,_)   (`\      ,-'`_,-\
@@ -81,21 +81,22 @@ choice3 = input('''You bumped into the midfielder and it's a penalty!!! The refe
 
 if choice1: 'Left-Up'
 print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!');
-if choice1: 'Right-Down'
+elif choice1: 'Right-Down'
 choice2
 if choice2: 'Run at the ball'
 choice3
 if choice3: "Middle"
 print('It went out!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!')
-if choice3: "Left-Down"
+elif choice3: "Left-Down"
 print('''The dream it's over, the ball went in and the Ogres are in the Championship for another year. GAME OVER''')
-if choice3: "Left-Up"
+elif choice3: "Left-Up"
 print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!')
-if choice3: "Right-Up"
+elif choice3: "Right-Up"
 print('''The dream it's over, the ball went in and the Ogres are in the Championship for another year. GAME OVER''')
-if choice3: "Right-Down"
+elif choice3: "Right-Down"
 print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!')
-if choice2: 'Block left'
-if choice1: 'Left-Down' or 'Right-Up'
+elif choice2: 'Block left'
+elif choice1: 'Left-Down' or 'Right-Up'
 print('')
-elif print('Please choose one of the options.')
+else: 
+print('Please choose one of the options.')
