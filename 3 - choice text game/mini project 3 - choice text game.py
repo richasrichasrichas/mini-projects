@@ -74,7 +74,12 @@ print('''
      `    \, ()                              ` << |xx|XXX|
  jgs^^^^^^^^`^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^''')
 choice1 = input('Which side do you go to block the ball? Type "Left-Up" "Left-Down" "Right-Up" "Right-Down"')
-choice2 == input('You defended the kick but it was a rebound! The enemy midfielder is coming to the ball, what do you do? Type "Run at the ball" "Block left" "Block right"') 
+choice2 = input('You defended the kick but it was a rebound! The enemy midfielder is coming to the ball, what do you do? Type "Run at the ball" "Block left" "Block right"') 
 
-if choice1 "Left-Up": 
-        print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!');
+if choice1 'Left-Up': 
+  print('You catched it!! The referee ends the match and the Merseyside Ogres are officially in the Premier League again!!!');
+if choice1 'Right-Down'
+  choice2
+if choice1 'Left-Down' or 'Right-Up':
+  print('')
+else print('Please choose one of the options.')
