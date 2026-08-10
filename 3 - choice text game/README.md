@@ -1,36 +1,28 @@
-# 📌 Band name generator
+# 📌 GOALKEEPER - choice text game
 
-> Uma frase curta e direta explicando o que o projeto faz.
+> A text and choice-based game.
 
-<!-- Badges opcionais (linguagem, licença, status do build, etc.) -->
-<!-- ![Python](https://img.shields.io/badge/Python-3.11-blue) -->
+![Python](https://img.shields.io/badge/Python-3.14-blue) 
 
 ---
 
 ## 🧠 O que eu fiz
 
-Descreva em 2-4 frases o que foi construído. Foque no resultado, não no processo.
-
-Exemplo:
-> Desenvolvi um pipeline de ETL em Python que extrai dados de vendas de uma API pública, trata e padroniza as informações, e carrega o resultado em um banco PostgreSQL para consumo em dashboards no Power BI.
+>I built a text game where you play as a goalkeeper using basic inputs, prints and while loops.
 
 ---
 
 ## 💡 Por que eu fiz isso
 Exemplo:
-> Queria praticar construção de pipelines de dados do zero e entender melhor como estruturar um projeto Python em múltiplos arquivos (em vez de scripts únicos), aplicando boas práticas de modularização.
+> I wanted to practice my Python programming skills and hone my computational thinking
 
 ---
 
 ## 🛠️ Tech Stack
 
-Liste as principais tecnologias, linguagens e ferramentas usadas.
 
-- **Linguagem:** Python 3.11
-- **Bibliotecas:** pandas, requests, SQLAlchemy
-- **Banco de dados:** PostgreSQL
-- **Outros:** Docker, GitHub Actions
-
+- **Language:** Python 3.14
+- **Others:** Git, Github
 ---
 
 ## ⚙️ Funcionalidades
@@ -77,20 +69,22 @@ seu-projeto/
 
 ---
 
-## 📚 O que eu aprendi
-- Aprendi a estruturar um projeto Python em múltiplos módulos
-- Entendi melhor como funciona o sistema de imports do Python
-- Pratiquei tratamento de erros e logging em pipelines de dados
+## 📚 What i learned
+- I learned to structure inputs and give answears to the user
+- I understood better how to structure said inputs on each order that they come
+- Practice debugging and structuring while loops
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está sob a licença MIT — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is under the MIT License — check the file [LICENSE](LICENSE) for more detail.
 
 ---
 
-## 📬 Contato
+## 📬 Contact
 
-**Seu Nome**
-[LinkedIn](#) · [GitHub](#) · [E-mail](#)
+**Ricardo Abdalla** \
+[LinkedIn](#) · 
+[GitHub](#) · 
+[E-mail](#)
