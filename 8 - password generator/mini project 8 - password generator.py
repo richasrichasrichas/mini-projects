@@ -21,7 +21,4 @@ for char in range(1, nr_symbols + 1):
 for char in range(1, nr_numbers + 1):
     password += random.choice(numbers)
 
-for char in range(1, len(password) + 1):
-    password = random.choices(password, k=len(password)) 
-
-print(password)
+print(''.join(random.sample(password, len(password))))
