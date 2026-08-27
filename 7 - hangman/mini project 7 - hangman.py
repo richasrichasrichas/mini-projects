@@ -8,6 +8,12 @@ def nome_aleatorio():
         palavras = [linha[0] for linha in leitor if linha]
     return random.choice(palavras)
 
+def nome_oculto(palavra_secreta, letras_tentadas):
+    return ''.join(
+        letra if letra in letras_tentadas else '#'
+        for letra in palavra_secreta
+    )
+
 def jogar():
     palavra_secreta = nome_aleatorio()   # gerada UMA vez, guardada na variável
     vidas = 6
@@ -18,7 +24,9 @@ def jogar():
         # ex: mostrar progresso, pedir letra, checar se está em palavra_secreta
         letra = input("Digite uma letra: ").lower()
         letras_tentadas.add(letra)
+        
         print(f'Letras tentadas: {letras_tentadas}')
+        print(f'Palavra: {nome_oculto(palavra_secreta, letras_tentadas)}')
 
         if letra not in palavra_secreta:
             vidas -= 1
