@@ -1,4 +1,6 @@
 import random
+import secrets
+
 characters=['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'ç', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Ç', 'Z', 'X', 'C', 'V', 'B', 'N', 'M']
 numbers=['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 symbols=['!', '@', '#', '$', '%', '&', '*', '(', ')', '-', '_', '=', '+', '§', '|', '<', '>', ';', ':', ',', '.', '/', '?', '°']
@@ -11,14 +13,14 @@ nr_numbers = int(input(f'How many numbers would you like?\n'))
 password = ''
 
 for char in range(1, nr_letters + 1):
-    password += random.choice(characters)
+    password += secrets.choice(characters)
 
 
 for char in range(1, nr_symbols + 1):
-    password += random.choice(symbols)
+    password += secrets.choice(symbols)
 
 
 for char in range(1, nr_numbers + 1):
-    password += random.choice(numbers)
+    password += secrets.choice(numbers)
 
 print(''.join(random.sample(password, len(password))))
