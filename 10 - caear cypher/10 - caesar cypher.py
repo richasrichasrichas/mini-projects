@@ -14,7 +14,8 @@ valid_input = False
 while valid_input == False:
     if menu == 'encrypt':
         try: shift = int(input('What is the value of the shift?'))
-        except: ValueError
+        except ValueError: 
+            shift = int(input('ValueError. Please use an integer.'))
         message = input('What is the message to encrypt?')
         valid_input = True
         print(encryption(message, shift))
