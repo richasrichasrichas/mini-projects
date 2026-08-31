@@ -1,27 +1,29 @@
 import string
 
 letters = string.ascii_lowercase
-shift = int(input('What is the value of the shift?'))
 
-def encryption(message):
-    letra = 'd'
-    posicao = letters.index(letra)
-    nova_posicao = (posicao + shift) % len(letters)
-    nova_letra = letters[nova_posicao]
-    return [message.count in letters for shift in message]
+def encryption(message, shift):
+    return "".join([letters[(letters.index(letra) + shift) % len(letters)] for letra in message])
 
 def decryption(message, shift):
-    return [message.index(letters) in letters in message + shift]
+    return "".join([letters[(letters.index(letra) - shift) % len(letters)] for letra in message])
 
 print('Welcome to the Caesar Cypher converter!')
 menu = input('Do you want to encrypt or decrypt a message?')
 valid_input = False
-while valid_inputalid_input == False:
+while valid_input == False:
     if menu == 'encrypt':
-        valid_inputalid_input = True
-        encryption()
-    elif menu == 'decrypt':
+        try: shift = int(input('What is the value of the shift?'))
+        except: ValueError
+        message = input('What is the message to encrypt?')
         valid_input = True
-        decryption()
+        print(encryption(message, shift))
+    elif menu == 'decrypt':
+        try: shift = int(input('What is the value of the shift?'))
+        except ValueError: 
+            shift = int(input('ValueError. Please use an integer.'))
+        message = input('What is the message to decrypt?')
+        valid_input = True
+        print(decryption(message, shift))
     else:
-        print('Input error, please use lowercase letters.')
+        menu = input('Input error, please type "encrypt" or "decrypt" with lowercase letters.') 
